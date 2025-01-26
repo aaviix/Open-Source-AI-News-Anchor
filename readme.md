@@ -50,7 +50,7 @@ News Anchor/
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/aaviix/wav2lip-news-anchor.git
+   git clone https://github.com/aaviix/Open-Source-AI-News-Anchor.git
    cd wav2lip-news-anchor
    ```
 2. **Set Up Virtual Environment**:
@@ -58,7 +58,6 @@ News Anchor/
    ```bash
    python3 -m venv env
    source env/bin/activate  # macOS/Linux
-   env\Scripts\activate   # Windows
    ```
 3. **Install Dependencies**:
 
