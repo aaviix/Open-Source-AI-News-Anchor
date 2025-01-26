@@ -50,10 +50,9 @@ News Anchor/
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/your-repo/wav2lip-news-anchor.git
+   git clone https://github.com/aaviix/wav2lip-news-anchor.git
    cd wav2lip-news-anchor
    ```
-
 2. **Set Up Virtual Environment**:
 
    ```bash
@@ -61,13 +60,11 @@ News Anchor/
    source env/bin/activate  # macOS/Linux
    env\Scripts\activate   # Windows
    ```
-
 3. **Install Dependencies**:
 
    ```bash
    pip install -r requirements.txt
    ```
-
 4. **Download Wav2Lip Checkpoints**:
 
    - Place the pretrained Wav2Lip model (`wav2lip_gan.pth`) in the `checkpoints/` directory.
@@ -75,7 +72,6 @@ News Anchor/
      mkdir -p Wav2Lip/checkpoints
      mv downloaded_model_path/wav2lip_gan.pth Wav2Lip/checkpoints/
      ```
-
 5. **Create ****\`\`**** Directory**:
 
    ```bash
@@ -171,4 +167,3 @@ This project is licensed under the MIT License. See the `LICENSE` file for more 
 - Add GPU acceleration for faster inference.
 - Enhance the UI with real-time video preview.
 - Support multiple faces in a single image.
-
